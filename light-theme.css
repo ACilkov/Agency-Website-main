@@ -1342,4 +1342,8 @@ textarea:focus {
   .contact-text {
     padding: 10px 0 40px 0;
   }
+
+  .btn-form-send {
+    margin-right: 15px;
+  }
 }

@@ -576,10 +576,6 @@ textarea:focus {
   .contact-form form {
     text-align: center;
   }
-
-  .btn-form-send {
-    margin-right: 38px;
-  }
 }
 
 /* Small Screens, Laptops */
@@ -778,6 +774,10 @@ textarea:focus {
   .contact-text {
     padding: 10px 0 40px 0;
   }
+
+  .btn-form-send {
+    margin-right: 38px;
+  }
 }
 
 /* iPads, Tablets */
@@ -835,6 +835,10 @@ textarea:focus {
   #navigationMain .active {
     border-bottom: none;
     padding: 0;
+  }
+
+  #navigationMain ul li a {
+    color: #60646c;
   }
 
   #navigationMain ul li a:active {
@@ -1122,6 +1126,10 @@ textarea:focus {
     padding: 0;
   }
 
+  #navigationMain ul li a {
+    color: #60646c;
+  }
+
   #navigationMain ul li a:active {
     box-shadow: none;
   }
@@ -1351,5 +1359,9 @@ textarea:focus {
 
   .contact-text {
     padding: 10px 0 40px 0;
+  }
+
+  .btn-form-send {
+    margin-right: 15px;
   }
 }
