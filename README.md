@@ -8,6 +8,10 @@ The webpage was also developed with general breakpoints/responsive guidelines so
 
 Overall it took around 20 hours to create this webpage.
 
+UPDATE 3/7/2022
+Added the blog page part of the website.
+Used this page to practice some of the basics and fundamentals of CSS Grid.
+Page should also be responsive for general devices.
 
 /* -- License -- */
 The design is taken from cssauthor.com and belong to their respective owners.
