@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="blogstylesheet.css" id="theme-link" />
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?" />
+    <!-- Font -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+    </style>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+    </style>
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/536fa19072.js" crossorigin="anonymous"></script>
+    <title>Author - Blog - HTML, CSS, JavaScript practice</title>
+  </head>
+  <body>
+    <nav>
+      <h1>Author</h1>
+      <div id="navigationMain" class="topnav">
+        <ul class="mainMenu">
+          <li><a class="active nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="#service">Service</a></li>
+          <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link" href="#team">Team</a></li>
+          <li><a class="nav-link" href="blog.html">Blog</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+          <div class="toggle-mode">
+            <button
+              class="btn-toggle"
+              type="button"
+              id="btn-toggle"
+              onclick="myFunction()"
+            >
+              Dark Mode
+            </button>
+          </div>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+    <!-- Grid Container -->
+    <main>
+      <div id="headerHero"></div>
+      <section>
+        <div class="cntGrid">
+          <!-- Main Body - Blog posts -->
+          <div class="cnt-col-1">
+            <!-- Blog Post #1 -->
+            <div class="blgPst">
+              <div class="cnt-flex-date">
+                <div class="postDate">
+                  <p class="date">22nd</p>
+                  <p class="month">Mar</p>
+                  <p class="year">2022</p>
+                </div>
+              </div>
+              <div class="cnt-flex-blg-main">
+                <h2 class="blgHeader">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos.
+                </h2>
+                <div class="cnt-flex-body">
+                  <img src="images/blog-post-1.png" alt="Blog Post 1" />
+                  <div class="text-body">
+                    <p class="mainText">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Suscipit rerum molestiae dolor sint minima excepturi rem
+                      pariatur totam, architecto, eveniet eius necessitatibus
+                      deserunt voluptatum odio quaerat dicta quos molestias
+                      nostrum ipsa. Ipsum mollitia vero doloribus ut asperiores
+                      itaque autem tenetur magni, facere quaerat, eius aliquam
+                      quas corporis? Possimus consequatur enim veniam laboriosam
+                      et quidem non, molestias voluptatum delectus similique
+                      quos, inventore ratione quod magnam
+                    </p>
+                    <p class="secondaryText">
+                      Itaque facere illum tempora nobis eveniet officia atque
+                      odio provident vel fugiat inventore, ut omnis quos.
+                    </p>
+                    <a href="#" class="readMore">Read More ></a>
+                  </div>
+                </div>
+                <div class="tagSection">
+                  <hr />
+                  <div class="cnt-tagSection">
+                    <p>By <a href="#" class="author">Andrej Cilkov</a></p>
+                    <a href="#" class="comments">120 comments</a>
+                    <p>Tags: Design, Creative, Web Development</p>
+                    <div class="socials">
+                      <p>Share</p>
+                      <img src="images/sc-blog-tw.png" alt="Twitter" />
+                      <img src="images/sc-blog-fb.png" alt="Facebook" />
+                    </div>
+                  </div>
+                  <hr />
+                </div>
+              </div>
+            </div>
+            <!-- Blog Post #2 -->
+            <div class="blgPst">
+              <div class="cnt-flex-date">
+                <div class="postDate">
+                  <p class="date">15th</p>
+                  <p class="month">Nov</p>
+                  <p class="year">2022</p>
+                </div>
+              </div>
+              <div class="cnt-flex-blg-main">
+                <h2 class="blgHeader">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos.
+                </h2>
+                <div class="cnt-flex-body">
+                  <img src="images/blog-post-2.png" alt="Blog Post 1" />
+                  <div class="text-body">
+                    <p class="mainText">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Suscipit rerum molestiae dolor sint minima excepturi rem
+                      pariatur totam, architecto, eveniet eius necessitatibus
+                      deserunt voluptatum odio quaerat dicta quos molestias
+                      nostrum ipsa. Ipsum mollitia vero doloribus ut asperiores
+                      itaque autem tenetur magni, facere quaerat, eius aliquam
+                      quas corporis? Possimus consequatur enim veniam laboriosam
+                      et quidem non, molestias voluptatum delectus similique
+                      quos, inventore ratione quod magnam
+                    </p>
+                    <p class="secondaryText">
+                      Itaque facere illum tempora nobis eveniet officia atque
+                      odio provident vel fugiat inventore, ut omnis quos.
+                    </p>
+                    <a href="#" class="readMore">Read More ></a>
+                  </div>
+                </div>
+                <div class="tagSection">
+                  <hr />
+                  <div class="cnt-tagSection">
+                    <p>By <a href="#" class="author">Andrej Cilkov</a></p>
+                    <a href="#" class="comments">120 comments</a>
+                    <p>Tags: Design, Creative, Web Development</p>
+                    <div class="socials">
+                      <p>Share</p>
+                      <img src="images/sc-blog-tw.png" alt="Twitter" />
+                      <img src="images/sc-blog-fb.png" alt="Facebook" />
+                    </div>
+                  </div>
+                  <hr />
+                </div>
+              </div>
+            </div>
+            <!-- Blog Post #3 -->
+            <div class="blgPst">
+              <div class="cnt-flex-date">
+                <div class="postDate">
+                  <p class="date">18th</p>
+                  <p class="month">July</p>
+                  <p class="year">2021</p>
+                </div>
+              </div>
+              <div class="cnt-flex-blg-main">
+                <h2 class="blgHeader">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos.
+                </h2>
+                <div class="cnt-flex-body">
+                  <img src="images/blog-post-3.png" alt="Blog Post 1" />
+                  <div class="text-body">
+                    <p class="mainText">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Suscipit rerum molestiae dolor sint minima excepturi rem
+                      pariatur totam, architecto, eveniet eius necessitatibus
+                      deserunt voluptatum odio quaerat dicta quos molestias
+                      nostrum ipsa. Ipsum mollitia vero doloribus ut asperiores
+                      itaque autem tenetur magni, facere quaerat, eius aliquam
+                      quas corporis? Possimus consequatur enim veniam laboriosam
+                      et quidem non, molestias voluptatum delectus similique
+                      quos, inventore ratione quod magnam
+                    </p>
+                    <p class="secondaryText">
+                      Itaque facere illum tempora nobis eveniet officia atque
+                      odio provident vel fugiat inventore, ut omnis quos.
+                    </p>
+                    <a href="#" class="readMore">Read More ></a>
+                  </div>
+                </div>
+                <div class="tagSection">
+                  <hr />
+                  <div class="cnt-tagSection">
+                    <p>By <a href="#" class="author">Andrej Cilkov</a></p>
+                    <a href="#" class="comments">120 comments</a>
+                    <p>Tags: Design, Creative, Web Development</p>
+                    <div class="socials">
+                      <p>Share</p>
+                      <img src="images/sc-blog-tw.png" alt="Twitter" />
+                      <img src="images/sc-blog-fb.png" alt="Facebook" />
+                    </div>
+                  </div>
+                  <hr />
+                </div>
+              </div>
+            </div>
+            <!-- Blog Post #4 -->
+            <div class="blgPst">
+              <div class="cnt-flex-date">
+                <div class="postDate">
+                  <p class="date">05th</p>
+                  <p class="month">May</p>
+                  <p class="year">2021</p>
+                </div>
+              </div>
+              <div class="cnt-flex-blg-main">
+                <h2 class="blgHeader">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos.
+                </h2>
+                <div class="cnt-flex-body">
+                  <img src="images/blog-post-4.png" alt="Blog Post 1" />
+                  <div class="text-body">
+                    <p class="mainText">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Suscipit rerum molestiae dolor sint minima excepturi rem
+                      pariatur totam, architecto, eveniet eius necessitatibus
+                      deserunt voluptatum odio quaerat dicta quos molestias
+                      nostrum ipsa. Ipsum mollitia vero doloribus ut asperiores
+                      itaque autem tenetur magni, facere quaerat, eius aliquam
+                      quas corporis? Possimus consequatur enim veniam laboriosam
+                      et quidem non, molestias voluptatum delectus similique
+                      quos, inventore ratione quod magnam
+                    </p>
+                    <p class="secondaryText">
+                      Itaque facere illum tempora nobis eveniet officia atque
+                      odio provident vel fugiat inventore, ut omnis quos.
+                    </p>
+                    <a href="#" class="readMore">Read More ></a>
+                  </div>
+                </div>
+                <div class="tagSection">
+                  <hr />
+                  <div class="cnt-tagSection">
+                    <p>By <a href="#" class="author">Andrej Cilkov</a></p>
+                    <a href="#" class="comments">120 comments</a>
+                    <p>Tags: Design, Creative, Web Development</p>
+                    <div class="socials">
+                      <p>Share</p>
+                      <img src="images/sc-blog-tw.png" alt="Twitter" />
+                      <img src="images/sc-blog-fb.png" alt="Facebook" />
+                    </div>
+                  </div>
+                  <hr />
+                </div>
+              </div>
+            </div>
+            <!-- Load More Posts -->
+            <div class="loadMore">
+              <button class="btnLoadMore" style="vertical-align: middle">
+                <span>Load More Posts</span>
+              </button>
+            </div>
+          </div>
+          <!-- Side content -->
+          <div class="cnt-col-2">
+            <!-- Search -->
+            <div class="search">
+              <input type="text" name="search" id="search" placeholder="Search..">
+              <button type="submit" class="searchIcon"><i class="fa fa-search fa-2x"></i></button>
+            </div>
+            <!-- Follow -->
+            <div class="follow">
+              <h3>Follow Us</h3>
+              <img src="images/sc-fb.png" alt="Facebook" />
+              <img src="images/sc-tw.png" alt="Twitter" />
+              <img src="images/sc-gp.png" alt="Google+" />
+            </div>
+            <!-- Email Subscription -->
+            <div class="emailSubscription">
+              <input type="text" id="email" placeholder="Enter your E-mail">
+              <button class="btn-subscribe">Subscribe</button>
+            </div>
+            <!-- Categories -->
+            <div class="categories">
+              <h3>Categories</h3>
+              <div class="ctg-links">
+               <button class="btn-ctg" style="vertical-align: middle">
+                <span>> Lorem ipsum dolor sit amet.</span>
+              </button>
+              <button class="btn-ctg" style="vertical-align: middle">
+                <span>> Lorem ipsum dolor sit amet.</span>
+              </button>
+              <button class="btn-ctg" style="vertical-align: middle">
+                <span>> Lorem ipsum dolor sit amet.</span>
+              </button>
+              <button class="btn-ctg" style="vertical-align: middle">
+                <span>> Lorem ipsum dolor sit amet.</span>
+              </button>
+              <button class="btn-ctg" style="vertical-align: middle">
+                <span>> Lorem ipsum dolor sit amet.</span>
+              </button>
+              <button class="btn-ctg" style="vertical-align: middle">
+                <span>> Lorem ipsum dolor sit amet.</span>
+              </button> 
+              </div>
+            </div>
+            <!-- Popular Post -->
+            <div class="popular-post">
+              <h3>Popular Post</h3>
+              <div class="cnt-popular-post">
+                <img src="images/blog-popular.png" alt="Popular Posts">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia quibusdam architecto, recusandae corporis beatae officiis. Sit veritatis dicta eaque eveniet.</p>
+                <div class="read-more-popular">
+                  <p>Sep 26th, 2021</p>
+                  <a href="#">Read More></a>
+                </div>
+              </div>
+            </div>
+            <!-- Recent Post -->
+            <div class="recent-post">
+              <h3>Recent Post</h3>
+              <ul>
+                <li>Lorem ipsum dolor sit amet consectetur.</li>
+                <li>Lorem ipsum dolor sit amet consectetur.</li>
+                <li>Lorem ipsum dolor sit amet consectetur.</li>
+                <li>Lorem ipsum dolor sit amet consectetur.</li>
+              </ul>
+            </div>
+            <!-- Tags -->
+            <div class="tags">
+              <h3>Tags</h3>
+              <div class="cnt-tags">
+                <a href="#">design</a>
+                <a href="#">development</a>
+                <a href="#">multipurpose</a>
+                <a href="#">SEO</a>
+                <a href="#">lifestyle</a>
+                <a href="#">crptyo</a>
+                <a href="#">creative</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <hr />
+        <div class="footerSocials"></div>
+        <div class="socialImgs">
+          <img src="images/sc-fb.png" alt="Facebook" />
+          <img src="images/sc-tw.png" alt="Twitter" />
+          <img src="images/sc-gp.png" alt="Google+" />
+        </div>
+        <p>Copyright &copy; 2022 Designed and Developed by: Andrej Cilkov</p>
+      </div>
+    </footer>
+    <script src="navbar.js"></script>
+    <script src="darkmodeblog.js"></script>
+    <script src="toggle-btn-text.js"></script>
+  </body>
+</html>
